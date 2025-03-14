@@ -1,4 +1,4 @@
-import win32file
+import win32file #pip install pywin32
 import time
 import subprocess
 from ctypes import windll
