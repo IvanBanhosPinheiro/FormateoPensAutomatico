@@ -25,6 +25,8 @@ def format_drive(drive_letter):
         cmd = f'format {drive_letter}: /Q /Y'
         subprocess.run(cmd, shell=True, capture_output=True)
         print(f"Formato completado en unidad {drive_letter}:")
+        print("\nPresione Ctrl+C para detener")
+        print("Esperando dispositivos USB...")
         return True
     except Exception as e:
         print(f"Error al formatear: {str(e)}")
