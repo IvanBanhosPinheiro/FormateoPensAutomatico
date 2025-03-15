@@ -22,6 +22,7 @@ En la carpeta `dist/USBFormatter` encontrarás el ejecutable `USBFormatter.exe` 
 2. Ejecutalo como administrador
 3. Elija la ruta donde instalarlo
 4. Cree acceso directo o no
+
 (Todo el contenido del ejecutable esta en la carpeta de MiInstalador junto con el script)
 
 
