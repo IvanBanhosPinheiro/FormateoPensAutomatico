@@ -1,6 +1,4 @@
-import win32file #pip install pywin32
-import time
-import subprocess
+import time, subprocess, win32file #pip install pywin32
 from ctypes import windll
 
 def get_drives():
